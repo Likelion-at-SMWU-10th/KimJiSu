@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
+*{
+    font-family: 'Quicksand', sans-serif;
+}
 body, h1, h2{
     margin:px;
     padding: 0px;
