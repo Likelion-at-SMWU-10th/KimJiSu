@@ -13,7 +13,6 @@ def signup(request):
                 user= User.objects.create_user(
                     username=request.POST['userId'], password=request.POST['password1']
                 )
-            auth.login(request, user)
             return redirect('home')
         else:
             return render(request, 'accounts/signup.html', {'error': "비밀번호가 일치하지 않습니다."})

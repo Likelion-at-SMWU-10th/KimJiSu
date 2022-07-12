@@ -19,7 +19,7 @@ from lionapp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.home, name='host'),
+    path('', views.home, name='home'),
     path('blog/', views.blog, name='blog'),
     path('detail/<int:blog_id>', views.detail, name="detail"),
     path('tigerapp/', include('tigerapp.urls')),
