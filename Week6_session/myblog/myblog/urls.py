@@ -1,4 +1,4 @@
-"""jixublog URL Configuration
+"""myblog URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/4.0/topics/http/urls/
@@ -15,10 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from todayapp import views
+from blogapp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.home),
-    path('myself/', include('myself.urls')),
+    path('', views.home, name='home'),
+    path('community/', views.community, name='community'),
+    path('developer/', include('developer.urls')),
 ]
