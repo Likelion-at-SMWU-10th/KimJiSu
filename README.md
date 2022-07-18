@@ -11,3 +11,4 @@
 |`일단 만드는 PYTHON`| ![2022-05-10](https://user-images.githubusercontent.com/86948824/167659180-85b4badc-42d2-4b42-91f8-1d898143da30.png)
 |`[심화] 같이 푸는 PYTHON`| ![2022-05-10 (2)](https://user-images.githubusercontent.com/86948824/167659301-d167bb34-a9a6-48f8-9dfd-31aa270f552a.png)
 |`일단 만드는 Django`| ![화면 캡처 2022-06-21 005607](https://user-images.githubusercontent.com/86948824/174640195-d7596dd2-2eb8-459c-9795-ec2d240a5f5a.png)
+|`일단 만드는 Django-2`|![화면 캡처 2022-07-18 141653](https://user-images.githubusercontent.com/86948824/179449212-66b9d145-cf7b-423b-867f-4000a4fb5ba8.png)
